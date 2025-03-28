@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
 import styles from "./style";
+import { handleLogin } from "./auth";
 
 const LoginScreen = () => {
   return (
@@ -20,7 +21,7 @@ const LoginScreen = () => {
         placeholderTextColor="#888"
         secureTextEntry
       />
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity style={styles.button} onPress={handleLogin}>
         <Text style={styles.buttonText}>Login</Text>
       </TouchableOpacity>
       <Text style={styles.signupText}>
