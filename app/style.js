@@ -15,13 +15,13 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   logoContainer: {
-    width: 100,
-    height: 100,
-    borderRadius: 50,
+    width: 200,
+    height: 200,
+    borderRadius: 100,
     backgroundColor: "#eee",
     justifyContent: "center",
     alignItems: "center",
-    marginBottom: 20,
+    marginBottom: 80,
   },
   logo: {
     width: 80,
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     resizeMode: "contain",
   },
   input: {
-    width: "100%",
+    width: "80%",
     height: 40,
     borderColor: "#000",
     borderWidth: 1,
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: "#000",
-    width: "100%",
+    width: "80%",
     height: 40,
     borderRadius: 20,
     justifyContent: "center",
