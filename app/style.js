@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     borderColor: "#000",
     borderWidth: 1,
     borderRadius: 20,
-    paddingHorizontal: 10,
+    paddingHorizontal: 15,
     marginBottom: 10,
     textAlign: "center",
   },
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: "#fff",
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: "bold",
   },
   signupText: {
